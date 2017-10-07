@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <android.support.v7.widget.LinearLayoutCompat
     xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:tools="http://schemas.android.com/tools"
     xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
@@ -12,19 +12,22 @@
         android:id="@+id/distancia"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:hint="Distância em km"/>
+        android:hint="Distância em km"
+        android:inputType="numberDecimal" />
 
     <EditText
         android:id="@+id/consumo"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:hint="Consumo do veículo km/l"/>
+        android:hint="Consumo do veículo km/l"
+        android:inputType="numberDecimal" />
 
     <EditText
         android:id="@+id/preco"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:hint="Preço do litro do combustível "/>
+        android:hint="Preço do litro do combustível"
+        android:inputType="numberDecimal" />
 
     <Button
         android:id="@+id/btnCalcular"
